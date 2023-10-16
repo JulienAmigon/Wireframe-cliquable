@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".Connexion">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="@string/connexion"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:text="@string/retour"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FF00"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/profil"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/IMGconnexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/___profil___1_1___copie"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/retour" />
+
+    <ImageView
+        android:id="@+id/IMGinscri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/___profil___1_2___copie"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/retour" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/simpleTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/connexions" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inscription" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="287dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#000000FF"
+        android:text="@string/change"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/MDPoublie"
+        android:layout_width="133dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="276dp"
+        android:backgroundTint="#00000000"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/IMGconnexion"
+        app:layout_constraintTop_toBottomOf="@+id/simpleTabLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

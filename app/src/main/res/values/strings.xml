@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TestApp2</string>
+    <string name="textview">TextView</string>
+    <string name="chasse_au_tresor">CHASSE AU TRESOR!</string>
+    <string name="chasse_au_tr_sor">Chasse au trésor</string>
+    <string name="lancer_une_chasse">Lancer une chasse</string>
+    <string name="profil">Profil</string>
+    <string name="cr_er_une_chasse">Créer une chasse</string>
+    <string name="connexion">Connexion</string>
+    <string name="chasse_xyz">Chasse XYZ</string>
+    <string name="todo">A faire\n</string>
+    <string name="rejoindre">Rejoindre</string>
+    <string name="retour">Retour</string>
+    <string name="v_rification">Vérification</string>
+    <string name="lancer">Lancer</string>
+    <string name="cr_er">Créer</string>
+    <string name="indice">Indice</string>
+    <string name="publier">Publier</string>
+    <string name="inscription">Inscription</string>
+    <string name="connexions">Connexion</string>
+    <string name="change">Change</string>
+    <string name="chassexyz">chasseXYZ</string>
+</resources>
